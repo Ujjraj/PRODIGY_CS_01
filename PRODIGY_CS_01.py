@@ -15,14 +15,10 @@ def main():
     message = input("Enter the message: ")
     shift = int(input("Enter the shift value: "))
     mode = input("Choose mode (encrypt/decrypt): ").lower()
-    
     if mode not in ['encrypt', 'decrypt']:
         print("Invalid mode. Please choose 'encrypt' or 'decrypt'.")
         return
-    
     result = caesar_cipher(message, shift, mode)
-    
     print(f"The {mode}ed message is: {result}")
-
 if __name__ == "__main__":
     main()
