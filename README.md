@@ -8,7 +8,7 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 ### How Does It Work?
 
 #### *Encryption*
-1. Choose a shift value (a number between 1 and 25). This is your password key.
+1. Choose a shift value (a number between 1 and 25). This is your cipher key.
 2. For each letter in the message:
    - Shift the letter by the chosen number of positions in the alphabet.
    - If the shift goes past "Z" or "z", it wraps around to the beginning of the alphabet.
@@ -23,7 +23,7 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 ---
 
 #### *Decryption*
-1. Use the same shift value that was used for encryption.
+1. Use the same shift value that was used for encryption(Cipher Key).
 2. For each letter in the encrypted message:
    - Shift the letter backward by the same number of positions in the alphabet.
    - If the shift goes before "A" or "a", it wraps around to the end of the alphabet.
