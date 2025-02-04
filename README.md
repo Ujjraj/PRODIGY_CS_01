@@ -23,7 +23,7 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 ---
 
 #### *Decryption*
-1. Use the same shift value that was used for encryption(Cipher Key).
+1. Use the same shift value that was used for encryption (Cipher Key).
 2. For each letter in the encrypted message:
    - Shift the letter backward by the same number of positions in the alphabet.
    - If the shift goes before "A" or "a", it wraps around to the end of the alphabet.
