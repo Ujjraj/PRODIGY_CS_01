@@ -15,9 +15,9 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 3. Non-alphabetic characters (like spaces, numbers, or punctuation) remain unchanged.
 
 *Example*:
-- *Message*: HELLO
-- *Shift*: 3
-- *Encrypted Message*: KHOOR  
+- *Message*: `HELLO`
+- *Shift*: `3`
+- *Encrypted Message*: `KHOOR`  
   (H → K, E → H, L → O, L → O, O → R)
 
 ---
@@ -30,7 +30,7 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 3. Non-alphabetic characters remain unchanged.
 
 *Example*:
-- *Encrypted Message*: KHOOR
-- *Shift*: 3
-- *Decrypted Message*: HELLO  
+- *Encrypted Message*: `KHOOR`
+- *Shift*: `3`
+- *Decrypted Message*: `HELLO`  
   (K → H, H → E, O → L, O → L, R → O)
